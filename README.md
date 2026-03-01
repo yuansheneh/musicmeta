@@ -209,3 +209,5 @@ flake8 src/ tests/
 - [Mutagen](https://github.com/quodlibet/mutagen) - 强大的音频元数据处理库
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - 现代化 tkinter 界面
 - [Pillow](https://python-pillow.org/) - Python 图像处理库
+
+### Powered by X1anLu0
