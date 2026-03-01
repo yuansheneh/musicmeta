@@ -1,0 +1,18 @@
+# 核心依赖
+mutagen==1.47.0
+Pillow==10.1.0
+customtkinter==5.2.1
+darkdetect==0.8.0
+packaging==23.2
+
+# 音频处理
+pydub==0.25.1
+audioop-lts==0.2.0; python_version >= "3.12"
+
+# 平台特定
+pywin32==306; sys_platform == "win32"
+android-storage==1.0.0; sys_platform == "android"
+
+# 工具库
+requests==2.31.0
+beautifulsoup4==4.12.2
