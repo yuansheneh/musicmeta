@@ -202,3 +202,7 @@ flake8 src/ tests/
 - [Pillow](https://python-pillow.org/) - Python 图像处理库
 
 ### Powered by X1anLu0
+
+### 本项目完全由AI编写 请注意辨别 反馈问题请详细描述❗
+
+### 对本项目的一切修改/维护请提交至Rebuild分支❗
