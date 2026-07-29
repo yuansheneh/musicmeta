@@ -206,3 +206,7 @@ flake8 src/ tests/
 ### 本项目完全由AI编写 请注意辨别 反馈问题请详细描述❗
 
 ### 对本项目的一切修改/维护请提交至Rebuild分支❗
+
+### This project is entirely AI-generated. Please review with discretion. When reporting issues, please provide detailed descriptions ❗
+
+### Please submit all modifications and maintenance for this project to the Rebuild branch ❗
