@@ -5,7 +5,6 @@
 from dataclasses import dataclass, field
 from typing import Optional, List, Dict, Any
 from enum import Enum
-from PIL import Image
 import io
 
 
@@ -75,7 +74,7 @@ class AudioMetadata:
     lyrics: Optional[str] = None
     
     # 封面艺术
-    cover_art: Optional[Image.Image] = None
+    cover_art: Optional[image.Image] = None # type: ignore
     cover_art_mime: Optional[str] = None
     
     # 技术信息

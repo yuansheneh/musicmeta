@@ -10,7 +10,7 @@ import os
 src_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src')
 sys.path.insert(0, src_path)
 
-from main import main
+from main import main # pyright: ignore[reportMissingImports]
 
 if __name__ == "__main__":
     main()

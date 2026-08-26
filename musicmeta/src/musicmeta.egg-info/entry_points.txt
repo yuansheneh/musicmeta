@@ -1,0 +1,2 @@
+[console_scripts]
+musicmeta = src.main:main

@@ -2,10 +2,10 @@
 主窗口 - 应用的主要 GUI 界面
 """
 
-import customtkinter as ctk
+import customtkinter as ctk  # type: ignore[reportMissingImports]
 from tkinter import filedialog, messagebox
 from typing import Optional, List, Dict
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk # pyright: ignore[reportMissingImports]
 import io
 import os
 from pathlib import Path
@@ -303,7 +303,7 @@ class MainWindow(ctk.CTk):
             self.file_list = []
             
             for ext in supported_exts:
-                self.file_list.extend(Path(folder_path).rglob(f"*{ext}"))
+                self.file_list.extend(Path(folder_path).rglob(f"*{ext}")) # pyright: ignore[reportArgumentType]
             
             self.file_list = [str(f) for f in self.file_list]
             
